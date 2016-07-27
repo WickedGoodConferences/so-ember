@@ -1,26 +1,20 @@
-<header>
+<header class="header">
   {{link-to "Code of conduct" "code-of-conduct" class="header__code-of-conduct t-link"}}
   <nav class="header__nav">
     <div class="nav__links">
-      <a class="nav__link" href="#">Attend</a>
-      <a class="nav__link" href="#">Speakers</a>
       {{#link-to "index" class="nav__logo"}}
         <svg><use xlink:href="/images/defs.svg#dy-logo"></use></svg>
+        <span class="t-hidden">home</span>
       {{/link-to}}
-      <a class="nav__link" href="#">Schedule</a>
-      <a class="nav__link" href="#">Sponsors</a>
     </div>
   </nav>
-  <div class='pure-u-1 hang-center'>
-    Friday, January 27, 2017
-  </div>
-  <div class='pure-u-1 hang-center'>
-    <a href='https://www.catamaranresort.com/'>
-      Catamaran Resort Hotel &amp; Spa
-    </a>
-  </div>
-  <div class='pure-u-1 hang-center'>
-    San Diego, CA
+  <div class="header__headings">
+    <h2>
+      <time datetime="2017-01-27">Friday, January 27, 2017</time>
+    </h2>
+    <h1>
+      <a class="header__headings__link" href='https://www.catamaranresort.com/'>Catamaran Resort Hotel &amp; Spa San Diego, CA</a>
+    </h1>
   </div>
 </header>
 <main>

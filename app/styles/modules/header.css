@@ -1,3 +1,7 @@
+.header {
+  margin-bottom: 25px;
+}
+
 .header__code-of-conduct {
   margin-top: 15px;
   margin-right: 15px;
@@ -6,4 +10,41 @@
   display: block;
   font-size: 14px;
   text-transform: uppercase;
+}
+
+.header__headings {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 420px;
+  text-align: center;
+  color: var(--gray);
+  @media (max-width: 699px) {
+    margin-top: 38px;
+    width: 88.75%;
+    font-size: 1.25em;
+  }
+  @media (min-width: 700px) {
+    margin-top: 138px;
+    font-size: 1.5em;
+  }
+}
+
+.header__headings h2 {
+  margin-bottom: 10px;
+  font-weight: var(--light);
+}
+
+.header__headings h1 {
+  font-family: var(--roboto-slab);
+  font-weight: var(--bold);
+  line-height: 1.2;
+  letter-spacing: .1em;
+}
+.header__headings__link {
+  color: inherit;
+  text-decoration: none;
+  &:focus,
+  &:hover {
+    box-shadow: inset 0 -2px 0 0 var(--gray);
+  }
 }
