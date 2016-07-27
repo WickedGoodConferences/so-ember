@@ -1,6 +1,8 @@
 .l-section {
   margin-right: auto;
+  margin-bottom: 50px;
   margin-left: auto;
   width: 88.75%;
   max-width: 900px;
+  display: flex;
 }

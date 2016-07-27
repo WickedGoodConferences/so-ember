@@ -1,0 +1,26 @@
+.index__image-divider {
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-left: auto;
+  width: 100%;
+  max-width: 1800px;
+  display: block;
+}
+
+.index__image-left {
+  @media (max-width: 999px) {
+    display: none;
+  }
+  @media (min-width: 1000px) {
+    max-width: 398px;
+    max-height: 390px;
+  }
+}
+
+.index__text-right {
+  @media (min-width: 1000px) {
+    padding-left: 20px;
+    width: calc(100% - 398px);
+    box-sizing: border-box;
+  }
+}

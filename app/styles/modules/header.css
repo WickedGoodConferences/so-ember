@@ -1,5 +1,10 @@
 .header {
-  margin-bottom: 25px;
+  @media (max-width: 699px) {
+    margin-bottom: 25px;
+  }
+  @media (min-width: 700px) {
+    margin-bottom: 50px;
+  }
 }
 
 .header__code-of-conduct {
