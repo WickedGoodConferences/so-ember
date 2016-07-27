@@ -1,0 +1,20 @@
+:root {
+  /* COLORS */
+  --navy: #192529;
+  --gray: #4a4a4a;
+    --d-gray: #979797;
+  --red: #e93f5c;
+  --teal: #00bdbb;
+    --d-teal: #006867;
+  --white: #ffffff;
+  --yellow: #f3e33a;
+
+  /* FONTS */
+  --roboto: 'Roboto', sans-serif;
+  --roboto-slab: 'Roboto Slab', serif;
+
+  /* FONT WEIGHTS */
+  --light: 300;
+  --regular: 400;
+  --bold: 700;
+}

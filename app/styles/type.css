@@ -1,0 +1,36 @@
+.t-hidden {
+  position: absolute !important;
+  height: 1px; width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+.t-link {
+  color: var(--red);
+  text-decoration: none;
+  &:focus,
+  &:hover {
+    box-shadow: 0 2px 0 0 var(--red);
+  }
+}
+
+.t-body {
+  font-size: 1.375em;
+  color: var(--gray);
+}
+
+.t-display,
+.t-heading {
+  font-size: 2.25em;
+  color: var(--gray);
+  font-family: var(--roboto-slab);
+}
+
+.t-display {
+  font-weight: var(--regular);
+}
+
+.t-heading {
+  font-weight: var(--bold);
+}
