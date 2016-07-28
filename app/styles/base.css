@@ -50,3 +50,7 @@ table {
 a {
   outline: none;
 }
+input,
+button {
+  font-family: var(--roboto);
+}

@@ -62,7 +62,15 @@
   }
 }
 
+.t-heading,
+.t-heading--form {
+  font-weight: var(--regular);
+}
 .t-heading {
   margin-bottom: 20px;
-  font-weight: var(--regular);
+}
+.t-heading--form {
+  @media (min-width: 999px) {
+    margin-bottom: 20px;
+  }
 }
