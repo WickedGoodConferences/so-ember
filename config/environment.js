@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'so-ember-ember',
+    modulePrefix: 'so-ember',
     environment: environment,
     rootURL: '/',
     locationType: 'auto',
