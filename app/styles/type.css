@@ -28,11 +28,17 @@
     + .t-body {
       margin-top: 24px;
     }
+    + .t-heading {
+      margin-top: 25px;
+    }
   }
   @media (min-width: 700px) {
     font-size: 1.375em;
     + .t-body {
       margin-top: 36px;
+    }
+    + .t-heading {
+      margin-top: 50px;
     }
   }
 }
