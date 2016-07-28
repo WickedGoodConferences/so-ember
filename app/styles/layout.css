@@ -1,8 +1,11 @@
-.l-section {
+.l-section,
+.l-section--flex {
   margin-right: auto;
   margin-bottom: 50px;
   margin-left: auto;
   width: 88.75%;
   max-width: 900px;
+}
+.l-section--flex {
   display: flex;
 }
