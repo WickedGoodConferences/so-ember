@@ -3,12 +3,15 @@
   --black: #000000;
   --navy: #192529;
   --gray: #4a4a4a;
-    --l-gray: #9b9b9b;
+    --l-gray: #f6f6f6;
+    --lm-gray: #d2d2d2;
+    --m-gray: #9b9b9b;
     --d-gray: #979797;
   --red: #e93f5c;
   --teal: #00bdbb;
-    --50-teal: rgba(0,189,187,.1);
-    --d-teal: #006867;
+    --l-teal: #00d0cf;
+    --m-teal: #006867;
+    --d-teal: #002929;
   --white: #ffffff;
   --yellow: #f3e33a;
 

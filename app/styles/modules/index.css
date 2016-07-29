@@ -1,10 +1,12 @@
 .index__image-divider {
-  margin-right: auto;
-  margin-bottom: 50px;
-  margin-left: auto;
   width: 100%;
-  max-width: 1800px;
   display: block;
+  @media (max-width: 699px) {
+    margin-bottom: 40px;
+  }
+  @media (min-width: 700px) {
+    margin-bottom: 80px;
+  }
 }
 
 .index__image-left {
@@ -19,7 +21,7 @@
 
 .index__text-right {
   @media (min-width: 1000px) {
-    padding-left: 20px;
+    padding-left: 66px;
     width: calc(100% - 398px);
     box-sizing: border-box;
   }

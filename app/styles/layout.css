@@ -1,14 +1,25 @@
 .l-section,
 .l-section--flex {
   margin-right: auto;
-  margin-bottom: 80px;
   margin-left: auto;
   width: 88.75%;
-  max-width: 900px;
+  max-width: 1000px;
+  @media (max-width: 699px) {
+    margin-bottom: 40px;
+  }
+  @media (min-width: 700px) {
+    margin-bottom: 80px;
+  }
 }
 .l-section--flex {
   display: flex;
   @media (max-width: 999px) {
     flex-direction: column;
   }
+}
+.l-section--form {
+  padding: 68px 5%;
+  width: 90%;
+  background-color: var(--l-gray);
+  text-align: center;
 }

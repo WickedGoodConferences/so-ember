@@ -1,5 +1,4 @@
 <header class="header">
-  {{link-to "Code of conduct" "code-of-conduct" class="header__code-of-conduct t-link"}}
   <nav class="header__nav">
     <div class="nav__links">
       {{#link-to "index" class="nav__logo"}}
@@ -9,16 +8,23 @@
     </div>
   </nav>
   <div class="header__headings">
+    <h1>So Ember<span>Conference</span></h1>
     <h2>
       <time datetime="2017-01-27">Friday, January 27, 2017</time>
     </h2>
-    <h1>
-      <a class="header__headings__link" href="https://www.catamaranresort.com/">Catamaran Resort Hotel &amp; Spa San Diego, CA</a>
-    </h1>
+    <h2>San Diego, CA</h2>
   </div>
 </header>
 <main>
   {{outlet}}
 </main>
-<footer>
+<footer class="footer">
+  <p>
+    Made with love by
+    <a class="footer__link t-link" href="http://dockyard.com" target="_blank">DockYard</a>
+  </p>
+  <p>
+    Follow us on Twitter
+    <a class="t-link" href="https://twitter.com/soemberconf" target="_blank">@soemberconf</a> or read the {{link-to "Code of conduct" "code-of-conduct" class="t-link"}}
+  </p>
 </footer>

@@ -1,0 +1,7 @@
+.footer {
+  padding: 32px 5%;
+  line-height: 1.66;
+  color: var(--white);
+  background-color: var(--d-teal);
+  text-align: center;
+}
