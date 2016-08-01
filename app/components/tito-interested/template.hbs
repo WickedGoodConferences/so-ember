@@ -1,0 +1,6 @@
+{{input class="form__input" placeholder="zoe@emberiña.com" name="email" id="email" value=email}}
+<label class="t-hidden" for="email">Email</label>
+<button class="form__submit" {{action "submit" email}} type="submit">Submit</button>
+{{#if message}}
+  <p class="{{if isError 'is-invalid' 'is-valid'}}">{{message}}</p>
+{{/if}}

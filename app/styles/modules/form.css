@@ -10,6 +10,9 @@
   @media (max-width: 699px) {
     flex-direction: column;
   }
+  @media (min-width: 700px) {
+    flex-flow: row wrap;
+  }
 }
 
 .form__input,
@@ -34,7 +37,7 @@
     border-width: 2px 2px 0 2px;
   }
   @media (min-width: 700px) {
-    width: calc(100% - 86px);
+    width: calc(100% - 171px);
     border-width: 2px 0 2px 2px;
   }
 }
@@ -58,4 +61,19 @@
   @media (min-width: 700px) {
     border-width: 2px 2px 2px 0;
   }
+}
+
+/* Validations */
+.form .is-valid,
+.form .is-invalid {
+  margin-top: 20px;
+  flex-grow: 1;
+  font-weight: var(--bold);
+  letter-spacing: 1px;
+}
+.form .is-valid {
+  color: var(--teal);
+}
+.form .is-invalid {
+  color: var(--red);
 }
