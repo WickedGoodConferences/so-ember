@@ -7,11 +7,11 @@
 }
 
 .t-link {
-  color: var(--red);
+  color: var(--teal);
   text-decoration: none;
   &:focus,
   &:hover {
-    box-shadow: 0 2px 0 0 var(--red);
+    box-shadow: 0 2px 0 0 var(--teal);
   }
 }
 
@@ -20,8 +20,7 @@
   color: var(--gray);
   line-height: 1.3;
   strong {
-    font-weight: var(--regular);
-    color: var(--d-teal);
+    font-weight: var(--bold);
   }
   @media (max-width: 699px) {
     font-size: 1.125em;
@@ -48,7 +47,7 @@
   color: var(--gray);
   font-family: var(--roboto-slab);
   @media (max-width: 699px) {
-    font-size: 1.25em;
+    font-size: 1.5em;
   }
   @media (min-width: 700px) {
     font-size: 2.25em;
