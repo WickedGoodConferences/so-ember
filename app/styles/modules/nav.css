@@ -50,15 +50,12 @@
   background-color: var(--white);
   transform: translate(-50%,-50%);
   @media (max-width: 699px) {
-    width: 100px;
-    height: 100px;
+    width: 220px;
   }
   @media (min-width: 700px) {
-    width: 300px;
-    height: 300px;
+    width: 512px;
   }
 }
-.nav__logo svg {
+.nav__logo img {
   width: inherit;
-  height: inherit;
 }
