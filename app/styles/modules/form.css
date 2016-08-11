@@ -37,7 +37,7 @@
     border-width: 2px 2px 0 2px;
   }
   @media (min-width: 700px) {
-    width: calc(100% - 171px);
+    width: calc(100% - 177px);
     border-width: 2px 0 2px 2px;
   }
 }
