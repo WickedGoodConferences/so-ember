@@ -6,6 +6,7 @@
   clip: rect(1px, 1px, 1px, 1px);
 }
 
+a,
 .t-link {
   color: var(--teal);
   text-decoration: none;

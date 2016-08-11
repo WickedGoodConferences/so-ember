@@ -2,5 +2,7 @@
 <label class="t-hidden" for="email">Email</label>
 <button class="form__submit" {{action "submit" email}} type="submit">Submit</button>
 {{#if message}}
-  <p class="{{if isError 'is-invalid' 'is-valid'}}">{{message}}</p>
+  <p class="{{if isError 'is-invalid' 'is-valid'}}">{{{message}}}</p>
 {{/if}}
+
+<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_b90cff2a22ea042593f18ca6a_29553786a0" tabindex="-1" value=""></div>
