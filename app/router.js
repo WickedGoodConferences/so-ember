@@ -9,6 +9,7 @@ const Router = Ember.Router.extend(RouterScroll, {
 
 Router.map(function() {
   this.route('code-of-conduct');
+  this.route('speaker-proposal');
 });
 
 export default Router;
