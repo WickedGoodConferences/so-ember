@@ -23,6 +23,7 @@
   border-style: solid;
   outline: none;
   letter-spacing: 2px;
+  appearance: none;
 }
 .form__input {
   padding-right: 15px;
