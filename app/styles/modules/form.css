@@ -45,7 +45,7 @@
 .form__submit {
   padding-right: 46px;
   padding-left: 46px;
-  font-weight: var(--medium);
+  font-weight: var(--regular);
   color: var(--white);
   background-color: var(--teal);
   border-color: var(--teal);
