@@ -15,11 +15,11 @@ module.exports = function(environment) {
 
     contentSecurityPolicy: {
       'default-src': "'none'",
-      'script-src': "'self' 'unsafe-inline' https://static.dockyard.com *.google-analytics.com https://platform.twitter.com/widgets.js https://s3-eu-west-1.amazonaws.com/share.typeform.com/widget.js https://dockyard.us9.list-manage.com",
+      'script-src': "'self' 'unsafe-inline' https://static.dockyard.com *.google-analytics.com https://platform.twitter.com https://dockyard.us9.list-manage.com https://s3-eu-west-1.amazonaws.com",
       'font-src': "'self' https://asset.dockyard.com https://dockyard.com",
       'connect-src': "'self' *.google-analytics.com https://dockyard.us9.list-manage.com",
-      'img-src': "'self' *.google-analytics.com https://i.imgur.com http://i.imgur.com",
-      'style-src': "'self' 'unsafe-inline' https://static.dockyard.com cloud.typography.com",
+      'img-src': "'self' *.google-analytics.com https://i.imgur.com http://i.imgur.com https://s3-eu-west-1.amazonaws.com",
+      'style-src': "'self' 'unsafe-inline' https://static.dockyard.com https://s3-eu-west-1.amazonaws.com",
       'media-src': "'self'",
       'frame-src': "https://heather215.typeform.com"
     },
