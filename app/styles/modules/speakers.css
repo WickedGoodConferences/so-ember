@@ -1,15 +1,3 @@
-.typeform-share {
-  display: inline-block;
-  @media (max-width: 699px) {
-    margin-top: 24px;
-    font-size: 1.125em;
-  }
-  @media (min-width: 700px) {
-    margin-top: 36px;
-    font-size: 1.5em;
-  }
-}
-
 .speaker {
   display: flex;
   @media (max-width: 699px) {
