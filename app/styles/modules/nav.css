@@ -1,8 +1,7 @@
 .header__nav {
-  height: 72px; /*Romove when links are added*/
   position: relative;
-  /*border-top: 1px solid var(--d-gray);
-  border-bottom: 1px solid var(--d-gray);*/
+  border-top: 1px solid var(--d-gray);
+  border-bottom: 1px solid var(--d-gray);
   @media (max-width: 699px) {
     margin-top: 81px;
   }
@@ -49,10 +48,10 @@
   border-radius: 50%;
   background-color: var(--white);
   transform: translate(-50%,-50%);
-  @media (max-width: 699px) {
+  @media (max-width: 849px) {
     width: 220px;
   }
-  @media (min-width: 700px) {
+  @media (min-width: 850px) {
     width: 512px;
   }
 }
