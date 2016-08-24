@@ -1,13 +1,11 @@
 .header__nav {
-  height: 72px; /*Romove when links are added*/
+  margin-top: 181px;
   position: relative;
-  /*border-top: 1px solid var(--d-gray);
-  border-bottom: 1px solid var(--d-gray);*/
+  border-top: 1px solid var(--d-gray);
+  border-bottom: 1px solid var(--d-gray);
   @media (max-width: 699px) {
-    margin-top: 81px;
   }
   @media (min-width: 700px) {
-    margin-top: 181px;
   }
 }
 
@@ -25,16 +23,13 @@
   color: var(--navy);
   letter-spacing: .1em;
   text-decoration: none;
-  &:nth-of-type(1),
-  &:nth-of-type(5) {
+  @media (max-width: 849px) {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @media (min-width: 850px) {
     margin-right: 50px;
     margin-left: 50px;
-  }
-  &:nth-of-type(2) {
-    margin-right: auto;
-  }
-  &:nth-of-type(4) {
-    margin-left: auto;
   }
   &:focus,
   &:hover {
@@ -44,16 +39,17 @@
 
 .nav__logo {
   position: absolute;
-  top: 50%;
   left: 50%;
   border-radius: 50%;
   background-color: var(--white);
   transform: translate(-50%,-50%);
-  @media (max-width: 699px) {
+  @media (max-width: 849px) {
+    top: -90px;
     width: 220px;
   }
-  @media (min-width: 700px) {
-    width: 512px;
+  @media (min-width: 850px) {
+    top: 50%;
+    width: 412px;
   }
 }
 .nav__logo img {
