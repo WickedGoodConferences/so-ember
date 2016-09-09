@@ -26,3 +26,11 @@
     box-sizing: border-box;
   }
 }
+
+.index__list-item {
+  margin-bottom: 12px;
+  font-size: 1.375rem;
+  list-style: disc;
+  list-style-position: inside;
+  color: var(--teal);
+}

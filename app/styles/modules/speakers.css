@@ -28,6 +28,7 @@
   border-radius: 50%;
   border: 2px solid var(--black);
   @media (max-width: 699px) {
+    margin-bottom: 16px;
     max-width: 200px;
     align-self: center;
   }
@@ -41,6 +42,19 @@
 }
 
 .speaker__name {
-  font-size: 2rem;
+  margin-bottom: 12px;
   font-weight: var(--bold);
+  color: var(--gray);
+  @media (max-width: 699px) {
+    font-size: 1.5rem;
+  }
+  @media (min-width: 700px) {
+    font-size: 1.75rem;
+  }
+}
+
+.t-link.typeform-share {
+  margin-top: 18px;
+  display: inline-block;
+  font-size: 1.5rem;
 }
