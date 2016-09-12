@@ -1,4 +1,5 @@
 .l-section,
+.l-section--center,
 .l-section--flex,
 .l-header {
   margin-right: auto;
@@ -22,5 +23,9 @@
   padding: 68px 5%;
   width: 90%;
   background-color: var(--l-gray);
+  text-align: center;
+}
+
+.l-section--center {
   text-align: center;
 }
