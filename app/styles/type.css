@@ -66,7 +66,6 @@
 }
 
 .t-display,
-.t-heading--bold,
 .t-heading {
   color: var(--gray);
   font-family: var(--roboto-slab);
@@ -76,10 +75,13 @@
   @media (min-width: 700px) {
     font-size: 2.25rem;
   }
+  &.has-underline {
+    padding-bottom: 10px;
+    border-bottom: 4px solid #00bdbb;
+  }
 }
 
-.t-display,
-.t-heading--bold {
+.t-display {
   font-weight: var(--bold);
   + .t-heading {
     margin-top: 8px;
@@ -87,21 +89,14 @@
 }
 
 .t-heading,
-.t-heading--bold,
 .t-heading--form {
   font-weight: var(--regular);
 }
-.t-heading,
-.t-heading--bold {
+.t-heading {
   margin-bottom: 20px;
 }
 .t-heading--form {
   @media (min-width: 999px) {
     margin-bottom: 20px;
   }
-}
-
-.t-heading--bold {
-  padding-bottom: 10px;
-  border-bottom: 4px solid #00bdbb;
 }
