@@ -1,0 +1,27 @@
+.l-schedule__day {
+  margin-bottom: 80px;
+}
+.schedule__day {
+  margin-bottom: 24px;
+  display: inline-block;
+  box-sizing: border-box;
+  font-weight: var(--bold);
+  color: var(--gray);
+  letter-spacing: 1px;
+  border-bottom: 4px solid var(--teal);
+  @media (max-width: 699px) {
+    padding-bottom: 8px;
+    font-size: 1.125rem;
+    span {
+      display: none;
+    }
+  }
+  @media (min-width: 700px) {
+    padding-bottom: 12px;
+    font-size: 2rem;
+  }
+}
+
+.tito-badge-link {
+  display: none !important;
+}

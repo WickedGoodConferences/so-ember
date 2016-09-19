@@ -1,14 +1,16 @@
 .l-section,
-.l-section--flex {
+.l-section--center,
+.l-section--flex,
+.l-header {
   margin-right: auto;
   margin-left: auto;
   width: 88.75%;
   max-width: 1000px;
   @media (max-width: 699px) {
-    margin-bottom: 40px;
+    margin-bottom: 60px;
   }
   @media (min-width: 700px) {
-    margin-bottom: 80px;
+    margin-bottom: 100px;
   }
 }
 .l-section--flex {
@@ -21,5 +23,9 @@
   padding: 68px 5%;
   width: 90%;
   background-color: var(--l-gray);
+  text-align: center;
+}
+
+.l-section--center {
   text-align: center;
 }
