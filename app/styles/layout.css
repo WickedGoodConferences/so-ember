@@ -1,3 +1,12 @@
+.l-main {
+  @media (max-width: 699px) {
+    margin-top: 40px;
+  }
+  @media (min-width: 700px) {
+    margin-top: 80px;
+  }
+}
+
 .l-section,
 .l-section--center,
 .l-section--flex,
