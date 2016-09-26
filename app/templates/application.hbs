@@ -1,14 +1,23 @@
-<nav class="nav">
+<nav class="nav" role="navigation">
+  <div class="nav--mobile">
+    {{link-to "So Ember" "index" class="logo"}}{{! TODO action "removeMobileNavClass"}}
+    <span class="nav__icon" {{! TODO action "toggleMobileNavClass"}}>
+      <span class="nav__icon__top"></span>
+      <span class="nav__icon__middle"></span>
+      <span class="nav__icon__bottom"></span>
+    </span>
+  </div>
   <div class="nav__links">
-    {{link-to "Attend" "index" class="nav__link"}}
     {{link-to "Schedule" "schedule" class="nav__link"}}
     {{link-to "Speakers" "speakers" class="nav__link"}}
+    {{link-to "Code of conduct" "code-of-conduct" class="nav__link"}}
+    {{link-to "Buy tickets" "index" class="nav__link"}}{{! TODO add tito link}}
   </div>
 </nav>
-<main>
+<main class="l-main" role="main">
   {{outlet}}
 </main>
-<footer class="footer">
+<footer class="footer" role="contentinfo">
   <p>
     Made with love by
     <a class="footer__link t-link" href="http://dockyard.com" target="_blank">DockYard</a>

@@ -29,7 +29,7 @@
   padding-right: 15px;
   padding-left: 30px;
   box-sizing: border-box;
-  border-color: var(--lm-gray);
+  border-color: var(--gray);
   background-color: var(--white);
   &:focus {
     border-color: var(--teal);
