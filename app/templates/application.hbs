@@ -1,14 +1,25 @@
-<nav class="nav">
-  <div class="nav__links">
-    {{link-to "Attend" "index" class="nav__link"}}
+<nav class="nav" role="navigation">
+  <div class="nav--mobile">
+    <span {{action "removeMobileNavClass"}}>
+      {{link-to "So Ember" "index" class="logo"}}
+    </span>
+    <span class="nav__icon" {{action "toggleMobileNavClass"}}>
+      <span class="nav__icon__top"></span>
+      <span class="nav__icon__middle"></span>
+      <span class="nav__icon__bottom"></span>
+    </span>
+  </div>
+  <div class="nav__links" {{action "removeMobileNavClass"}}>
     {{link-to "Schedule" "schedule" class="nav__link"}}
     {{link-to "Speakers" "speakers" class="nav__link"}}
+    {{link-to "Code of conduct" "code-of-conduct" class="nav__link"}}
+    {{ex-link-to label="Buy tickets" href="//ti.to/wicked-good/soember-2017" class="nav__link"}}
   </div>
 </nav>
-<main>
+<main class="l-main" role="main">
   {{outlet}}
 </main>
-<footer class="footer">
+<footer class="footer" role="contentinfo">
   <p>
     Made with love by
     <a class="footer__link t-link" href="http://dockyard.com" target="_blank">DockYard</a>

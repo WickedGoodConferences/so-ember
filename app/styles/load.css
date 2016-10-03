@@ -1,19 +1,19 @@
 :root {
   /* COLORS */
   --black: #000000;
-  --navy: #192529;
   --gray: #4a4a4a;
     --l-gray: #f6f6f6;
-    --lm-gray: #d2d2d2;
-    --m-gray: #9b9b9b;
-    --d-gray: #979797;
+    --d-gray: #98aca8;
   --red: #e93f5c;
-  --teal: #00bdbb;
-    --l-teal: #00d0cf;
-    --m-teal: #006867;
-    --d-teal: #002929;
+  --teal: #39a796;
+    --l-teal: #60cebd;
+    --m-teal: #095949;
+    --d-teal: #042c24;
+      --10-d-teal: rgba(4,44,36,.1);
   --white: #ffffff;
-  --yellow: #f3e33a;
+    --25-white: rgba(255,255,255,.25);
+    --50-white: rgba(255,255,255,.5);
+  --yellow: #f9e4be;
 
   /* FONTS */
   --roboto: 'Roboto', sans-serif;
