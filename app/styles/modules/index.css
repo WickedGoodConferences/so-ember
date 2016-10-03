@@ -28,9 +28,9 @@
 }
 
 .index__list-item {
+  margin-left: 21px;
   font-size: 1.375rem;
   list-style: disc;
-  list-style-position: inside;
   color: var(--teal);
   &:not(:last-of-type) {
     margin-bottom: 12px;
