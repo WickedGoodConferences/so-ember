@@ -19,7 +19,7 @@ module.exports = function(environment) {
       'font-src': "'self' https://asset.dockyard.com https://dockyard.com",
       'connect-src': "'self' *.google-analytics.com https://dockyard.us9.list-manage.com",
       'img-src': "'self' *.google-analytics.com https://i.imgur.com http://i.imgur.com https://s3-eu-west-1.amazonaws.com",
-      'style-src': "'self' 'unsafe-inline' https://static.dockyard.com https://s3-eu-west-1.amazonaws.com https://css.tito.io",
+      'style-src': "'self' 'unsafe-inline' https://static.dockyard.com https://s3-eu-west-1.amazonaws.com https://css.tito.io http://css.tito.io",
       'media-src': "'self'",
       'frame-src': "https://heather215.typeform.com https://ti.to/"
     },
