@@ -1,16 +1,6 @@
-.l-main {
-  @media (max-width: 699px) {
-    margin-top: 40px;
-  }
-  @media (min-width: 700px) {
-    margin-top: 80px;
-  }
-}
-
 .l-section,
 .l-section--center,
-.l-section--flex,
-.l-header {
+.l-section--flex {
   margin-right: auto;
   margin-left: auto;
   width: 88.75%;
@@ -22,6 +12,31 @@
     margin-bottom: 100px;
   }
 }
+
+.l-header {
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 0;
+  padding-right: 10%;
+  padding-left: 10%;
+  background:
+    repeating-linear-gradient(
+       45deg,
+       #fdf8ee,
+       #fdf8ee 6px,
+       #fbf4e5 6px,
+       #fbf4e5 8px
+    );
+  @media (max-width: 699px) {
+    padding-top: 52px;
+    padding-bottom: 52px;
+  }
+  @media (min-width: 700px) {
+    padding-top: 130px;
+    padding-bottom: 155px;
+  }
+}
+
 .l-section--flex {
   display: flex;
   @media (max-width: 999px) {
