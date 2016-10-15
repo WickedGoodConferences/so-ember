@@ -1,7 +1,9 @@
 :root {
   /* COLORS */
   --black: #000000;
+    --50-black: rgba(0,0,0,.5);
   --gray: #4a4a4a;
+    --05-gray: rgba(74,74,74,.05);
     --l-gray: #f6f6f6;
     --d-gray: #98aca8;
   --red: #e93f5c;

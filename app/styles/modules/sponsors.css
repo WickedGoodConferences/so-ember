@@ -1,0 +1,93 @@
+.sponsors,
+.sponsors--wicked-good {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.sponsors__heading {
+  color: var(--teal);
+  &:after {
+    content: "";
+    margin-top: 8px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    height: 2px;
+    width: 54px;
+    background-color:  var(--teal);
+  }
+}
+
+.sponsors__logos {
+  margin-top: 46px;
+}
+
+.sponsor__logo {
+  margin-bottom: 54px;
+  display: inline-block;
+  position: relative;
+  &.is-empty {
+    background-image: url(/assets/images/sponsor.svg);
+    background-repeat: no-repeat;
+  }
+  .sponsors--wicked-good & {
+    margin-right: 24px;
+    margin-left: 24px;
+    height: 176px;
+    width: 220px;
+    &.is-empty {
+      background-size: 55px 86px;
+      background-position: center 24px;
+    }
+  }
+  .sponsors & {
+    margin-right: 40px;
+    margin-left: 40px;
+    height: 120px;
+    width: 152px;
+    &.is-empty {
+      background-size: 38px 60px;
+      background-position: center 18px;
+    }
+  }
+}
+
+.sponsor__logo__link {
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: var(--teal);
+  transition-duration: .25s;
+  transition-property: opacity;
+  &:focus,
+  &:hover {
+    opacity: .5;
+  }
+  .sponsor__logo.is-empty & {
+    border: 1px dashed var(--50-black);
+  }
+  .sponsors--wicked-good & {
+    font-size: 1.5em;
+  }
+  .sponsors--wicked-good .sponsor__logo.is-empty & {
+    padding-top: 122px;
+  }
+  .sponsors & {
+    font-size: 1rem;
+  }
+  .sponsors .sponsor__logo.is-empty & {
+    padding-top: 84px;
+  }
+}
+
+.sponsor__logo__link svg,
+.sponsor__logo__link img {
+  width: 100%;
+}
+
+.sponsor__logo__link svg {
+  height: 100%;
+}
