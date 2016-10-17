@@ -27,6 +27,18 @@
   font-size: 1.25em;
 }
 
+.sponsors__headline {
+  margin-bottom: 36px;
+}
+
+.sponsors__desc {
+  margin-right: auto;
+  margin-bottom: 48px;
+  margin-left: auto;
+  max-width: 690px;
+  text-align: center;
+}
+
 .sponsors__logos {
   margin-top: 46px;
 }
