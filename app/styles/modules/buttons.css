@@ -11,7 +11,7 @@
   letter-spacing: .0625rem;
   cursor: pointer;
 }
-+
+
 .button--red {
   border: 3px solid var(--red);
   background-color: var(--white);
