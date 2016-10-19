@@ -54,6 +54,17 @@
   }
 }
 
+.speaker__title {
+  margin-top: 12px;
+  color: var(--teal);
+  @media (max-width: 699px) {
+    font-size: 1.25rem;
+  }
+  @media (min-width: 700px) {
+    font-size: 1.5rem;
+  }
+}
+
 .t-link.typeform-share {
   margin-top: 18px;
   display: inline-block;
