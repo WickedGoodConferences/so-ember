@@ -84,7 +84,9 @@
 }
 
 .sponsor__logo__link {
-  display: block;
+  display: flex;
+  vertical-align: middle;
+  justify-content: center;
   position: absolute;
   height: 100%;
   width: 100%;
