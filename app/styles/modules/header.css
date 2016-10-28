@@ -7,19 +7,6 @@
   }
 }
 
-.header__headings {
-  margin-right: auto;
-  margin-left: auto;
-  color: var(--gray);
-  text-align: center;
-  @media (max-width: 699px) {
-    font-size: 1.25rem;
-  }
-  @media (min-width: 700px) {
-    font-size: 1.5rem;
-  }
-}
-
 .header__heading {
   font-family: var(--roboto-slab);
   font-weight: var(--bold);

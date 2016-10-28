@@ -14,26 +14,20 @@
 }
 
 .l-header {
-  box-sizing: border-box;
   width: 100%;
-  margin-bottom: 0;
   padding-right: 10%;
   padding-left: 10%;
-  background:
-    repeating-linear-gradient(
-       45deg,
-       #fdf8ee,
-       #fdf8ee 6px,
-       #fbf4e5 6px,
-       #fbf4e5 8px
-    );
+  background: repeating-linear-gradient(45deg,#fdf8ee,#fdf8ee 6px,#fbf4e5 6px,#fbf4e5 8px);
+  text-align: center;
   @media (max-width: 699px) {
     padding-top: 52px;
     padding-bottom: 52px;
+    font-size: 1.25rem;
   }
   @media (min-width: 700px) {
     padding-top: 130px;
     padding-bottom: 155px;
+    font-size: 1.5rem;
   }
 }
 

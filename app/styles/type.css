@@ -92,13 +92,14 @@
   @media (min-width: 700px) {
     font-size: 1.125rem;
   }
+  time,
+  .has-double-dash {
+    display: inline-block;
+  }
   .has-double-dash:after {
+    content: "//";
     padding-left: .5em;
     padding-right: .5em;
-    content: "//";
-  }
-  & > * {
-    display: inline-block;
   }
 }
 
