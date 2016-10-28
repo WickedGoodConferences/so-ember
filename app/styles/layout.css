@@ -6,10 +6,12 @@
   width: 88.75%;
   max-width: 1000px;
   @media (max-width: 699px) {
-    margin-bottom: 60px;
+    margin-top: 40px;
+    margin-bottom: 48px;
   }
   @media (min-width: 700px) {
-    margin-bottom: 100px;
+    margin-top: 80px;
+    margin-bottom: 108px;
   }
 }
 

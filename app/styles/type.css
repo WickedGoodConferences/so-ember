@@ -122,3 +122,17 @@
     margin-bottom: 20px;
   }
 }
+
+.t-section-desc {
+  margin-bottom: 50px;
+  display: block;
+  font-weight: var(--light);
+  line-height: 2.375rem;
+  color: var(--d-teal);
+  @media (max-width: 699px) {
+    font-size: 1.375rem;
+  }
+  @media (min-width: 700px) {
+    font-size: 1.875rem;
+  }
+}

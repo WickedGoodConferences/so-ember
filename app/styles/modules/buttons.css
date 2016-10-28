@@ -3,15 +3,17 @@
   padding: 0 20px;
   min-width: 242px;
   line-height: 60px;
+  display: inline-block;
   box-sizing: border-box;
   border-radius: 4px;
   text-align: center;
   font-size: 1.25rem;
   font-weight: var(--bold);
   letter-spacing: .0625rem;
+  text-decoration: none;
   cursor: pointer;
 }
-+
+
 .button--red {
   border: 3px solid var(--red);
   background-color: var(--white);
