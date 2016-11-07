@@ -124,6 +124,8 @@
 
 .sponsor__logo__link svg,
 .sponsor__logo__link img {
+  margin-top: auto;
+  margin-bottom: auto;
   width: 100%;
 }
 
