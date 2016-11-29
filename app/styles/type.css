@@ -7,9 +7,13 @@
 }
 
 .l-section--form a,
-.t-link {
+.t-link,
+.t-link--disabled {
   color: var(--teal);
   text-decoration: none;
+}
+.l-section--form a,
+.t-link {
   &:focus,
   &:hover {
     box-shadow: 0 2px 0 0 var(--teal);
