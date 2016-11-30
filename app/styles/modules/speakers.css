@@ -86,7 +86,7 @@
   }
 }
 
-.t-link.typeform-share {
+.t-link--disabled.typeform-share {
   margin-top: 18px;
   display: inline-block;
   font-size: 1.5rem;
