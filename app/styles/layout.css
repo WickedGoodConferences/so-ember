@@ -1,18 +1,30 @@
-.l-section,
-.l-section--center,
-.l-section--flex {
+.l-section {
   margin-right: auto;
   margin-left: auto;
   width: 88.75%;
   max-width: 1000px;
   @media (max-width: 699px) {
-    margin-top: 40px;
-    margin-bottom: 48px;
+    padding-top: 40px;
+    padding-bottom: 48px;
   }
   @media (min-width: 700px) {
-    margin-top: 80px;
-    margin-bottom: 108px;
+    padding-top: 80px;
+    padding-bottom: 108px;
   }
+}
+
+.l-section--flex {
+  display: flex;
+  align-items: center;
+  @media (max-width: 999px) {
+    flex-direction: column;
+  }
+}
+
+.l-section--center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .l-header {
@@ -33,12 +45,6 @@
   }
 }
 
-.l-section--flex {
-  display: flex;
-  @media (max-width: 999px) {
-    flex-direction: column;
-  }
-}
 .l-section--form {
   padding: 68px 5%;
   width: 90%;
