@@ -1,8 +1,8 @@
-.l-section {
+.l-section,
+.l-section-_-thin {
   margin-right: auto;
   margin-left: auto;
   width: 88.75%;
-  max-width: 1000px;
   @media (max-width: 699px) {
     padding-top: 40px;
     padding-bottom: 48px;
@@ -12,6 +12,26 @@
     padding-bottom: 108px;
   }
 }
+.l-section,
+.l-header {
+  max-width: 793px;
+}
+.l-section-_-thin {
+  max-width: 633px;
+}
+
+.l-header {
+  margin-right: auto;
+  margin-left: auto;
+  width: 88.75%;
+  @media (max-width: 699px) {
+    margin-top: 30px;
+  }
+  @media (min-width: 700px) {
+    margin-top: 50px;
+  }
+}
+
 
 .l-section--flex {
   display: flex;
@@ -27,8 +47,7 @@
   align-items: center;
 }
 
-.l-header {
-  width: 100%;
+.l-hero {
   padding-right: 10%;
   padding-left: 10%;
   background: repeating-linear-gradient(45deg,#fdf8ee,#fdf8ee 6px,#fbf4e5 6px,#fbf4e5 8px);
