@@ -24,7 +24,9 @@
 }
 .l-schedule__rows {
   margin-left: 22px;
-  margin-bottom: 46px;
+  &:not(:last-of-type) {
+    margin-bottom: 46px;
+  }
 }
 .schedule__row {
   display: flex;

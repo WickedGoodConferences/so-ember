@@ -4,11 +4,9 @@
   margin-left: auto;
   width: 88.75%;
   @media (max-width: 699px) {
-    padding-top: 40px;
     padding-bottom: 48px;
   }
   @media (min-width: 700px) {
-    padding-top: 80px;
     padding-bottom: 108px;
   }
 }
@@ -26,9 +24,11 @@
   width: 88.75%;
   @media (max-width: 699px) {
     margin-top: 30px;
+    padding-bottom: 48px;
   }
   @media (min-width: 700px) {
     margin-top: 50px;
+    padding-bottom: 108px;
   }
 }
 
@@ -53,11 +53,13 @@
   background: repeating-linear-gradient(45deg,#fdf8ee,#fdf8ee 6px,#fbf4e5 6px,#fbf4e5 8px);
   text-align: center;
   @media (max-width: 699px) {
+    margin-bottom: 48px;
     padding-top: 52px;
     padding-bottom: 52px;
     font-size: 1.25rem;
   }
   @media (min-width: 700px) {
+    margin-bottom: 108px;
     padding-top: 130px;
     padding-bottom: 155px;
     font-size: 1.5rem;

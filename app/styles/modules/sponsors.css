@@ -1,0 +1,132 @@
+.sponsors,
+.sponsors--super-steezy,
+.sponsors--video {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.sponsors__heading,
+.sponsors__heading--super-steezy,
+.sponsors__heading--video {
+  color: var(--teal);
+  &:after {
+    content: "";
+    margin-top: 8px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    height: 2px;
+    width: 54px;
+    background-color: var(--teal);
+  }
+}
+.sponsors__heading--super-steezy {
+  font-size: 1.5em;
+}
+.sponsors__heading--video {
+  font-size: 1.25em;
+}
+
+.sponsors__headline {
+  margin-bottom: 36px;
+}
+
+.sponsors__desc {
+  margin-right: auto;
+  margin-bottom: 48px;
+  margin-left: auto;
+  max-width: 690px;
+  text-align: center;
+}
+
+.sponsors__logos {
+  margin-top: 46px;
+}
+
+.sponsor__logo {
+  margin-bottom: 54px;
+  display: inline-block;
+  position: relative;
+  &.is-empty {
+    background-image: url(/assets/images/sponsor.svg);
+    background-repeat: no-repeat;
+  }
+  .sponsors--super-steezy & {
+    margin-right: 24px;
+    margin-left: 24px;
+    height: 176px;
+    width: 220px;
+    &.is-empty {
+      background-size: 55px 86px;
+      background-position: center 24px;
+    }
+  }
+  .sponsors--video & {
+    margin-right: 32px;
+    margin-left: 32px;
+    height: 144px;
+    width: 182px;
+    &.is-empty {
+      background-size: 47px 72px;
+      background-position: center 20px;
+    }
+  }
+  .sponsors & {
+    margin-right: 40px;
+    margin-left: 40px;
+    height: 120px;
+    width: 152px;
+    &.is-empty {
+      background-size: 38px 60px;
+      background-position: center 18px;
+    }
+  }
+}
+
+.sponsor__logo__link {
+  display: flex;
+  vertical-align: middle;
+  justify-content: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: var(--teal);
+  &:focus,
+  &:hover {
+    opacity: .5;
+  }
+  .sponsor__logo.is-empty & {
+    border: 1px dashed var(--50-black);
+  }
+  .sponsors--super-steezy & {
+    font-size: 1.5em;
+  }
+  .sponsors--super-steezy .sponsor__logo.is-empty & {
+    padding-top: 122px;
+  }
+  .sponsors--video & {
+    font-size: 1.25em;
+  }
+  .sponsors--video .sponsor__logo.is-empty & {
+    padding-top: 100px;
+  }
+  .sponsors & {
+    font-size: 1em;
+  }
+  .sponsors .sponsor__logo.is-empty & {
+    padding-top: 84px;
+  }
+}
+
+.sponsor__logo__link svg,
+.sponsor__logo__link img {
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 100%;
+}
+
+.sponsor__logo__link svg {
+  height: 100%;
+}

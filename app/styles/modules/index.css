@@ -4,6 +4,14 @@
   background-image: url('/assets/images/anchor.png');
   background-position: center;
   background-size: 75px;
+  @media (max-width: 699px) {
+    margin-bottom: 48px;
+    padding-top: 48px;
+  }
+  @media (min-width: 700px) {
+    margin-bottom: 108px;
+    padding-top: 108px;
+  }
 }
 
 .index__experience__image {
