@@ -16,7 +16,12 @@
   }
 }
 .t-link--big {
-  font-size: 1.375rem;
+  @media (max-width: 699px) {
+    font-size: 1.125rem;
+  }
+  @media (min-width: 700px) {
+    font-size: 1.375rem;
+  }
 }
 
 .t-body,
