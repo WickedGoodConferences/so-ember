@@ -8,20 +8,38 @@
 .sponsors__heading,
 .sponsors__heading--super-steezy,
 .sponsors__heading--video {
-  color: var(--teal);
-  &:after {
+  position: relative;
+  color: var(--speaker-l-teal);
+  font-weight: var(--bold);
+  text-transform: uppercase;
+  &:before {
     content: "";
-    margin-top: 8px;
     margin-right: auto;
     margin-left: auto;
     display: block;
-    height: 2px;
-    width: 54px;
-    background-color: var(--teal);
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    top: 10px;
+    z-index: -2;
+    background-color: var(--speaker-l-teal);
+    opacity: .5;
+  }
+  &:after {
+    content: "";
+    display: block;
+    width: 190px;
+    height: 1em;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    z-index: -1;
+    background-color: var(--white);
+    transform: translateX(-50%);
   }
 }
 .sponsors__heading--super-steezy {
-  font-size: 1.5em;
+  font-size: 1.375em;
 }
 .sponsors__heading--video {
   font-size: 1.25em;

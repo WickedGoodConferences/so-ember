@@ -18,6 +18,11 @@
   max-width: 633px;
 }
 
+.l-section--dark {
+  padding-top: 70px;
+  background-color: var(--m-teal);
+}
+
 .l-header {
   margin-right: auto;
   margin-left: auto;
@@ -44,7 +49,16 @@
 .l-section--center {
   display: flex;
   flex-direction: column;
+  text-align: center;
   align-items: center;
+  .tito-wrapper {
+    margin: 0;
+    text-align: left;
+    background-color: var(--white);
+    @media (min-width: 800px) {
+      width: 602px;
+    }
+  }
 }
 
 .l-hero {
@@ -70,9 +84,5 @@
   padding: 68px 5%;
   width: 90%;
   background-color: var(--l-gray);
-  text-align: center;
-}
-
-.l-section--center {
   text-align: center;
 }

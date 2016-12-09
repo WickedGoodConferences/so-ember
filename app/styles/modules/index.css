@@ -5,11 +5,9 @@
   background-position: center;
   background-size: 75px;
   @media (max-width: 699px) {
-    margin-bottom: 48px;
     padding-top: 48px;
   }
   @media (min-width: 700px) {
-    margin-bottom: 108px;
     padding-top: 108px;
   }
 }
@@ -45,6 +43,33 @@
   > img {
     width: 100%;
     display: block;
+  }
+}
+
+.index__lodging__background {
+  height: 100%;
+  position: relative;
+  background-size: cover;
+  background-position: top center;
+  background-image: url(/assets/images/cat-entrance.jpg);
+  @media (max-width: 699px) {
+    margin-bottom: 30px;
+    padding-top: 30px;
+  }
+  @media (min-width: 700px) {
+    margin-bottom: 64px;
+    padding-top: 90px;
+  }
+}
+
+.index__lodging__text-background {
+  background-color: var(--white);
+  border-radius: 4px;
+  @media (max-width: 699px) {
+    padding: 22px 15px;
+  }
+  @media (min-width: 700px) {
+    padding: 62px 100px;
   }
 }
 
