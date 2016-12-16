@@ -24,3 +24,13 @@
     color: var(--white);
   }
 }
+
+button.tito-submit {
+  background-color: var(--teal) !important;
+  border-color: var(--teal) !important;
+  &:hover {
+    background-color: var(--l-teal) !important;
+    border-color: var(--l-teal) !important;
+
+  }
+}

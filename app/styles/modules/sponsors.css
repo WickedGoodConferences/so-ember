@@ -12,6 +12,7 @@
   color: var(--speaker-l-teal);
   font-weight: var(--bold);
   text-transform: uppercase;
+  letter-spacing: 1px;
   &:before {
     content: "";
     margin-right: auto;

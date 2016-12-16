@@ -49,12 +49,15 @@
   max-width: 156px;
   box-sizing: border-box;
   font-family: var(--roboto-slab);
+  color: var(--l-black);
   letter-spacing: 1px;
+  text-transform: uppercase;
   @media (max-width: 699px) {
     margin-bottom: 8px;
     font-size: 1.125rem;
   }
   @media (min-width: 700px) {
+    padding-top: 7px;
     padding-right: 16px;
     font-size: 1.5rem;
   }
@@ -62,6 +65,8 @@
 .schedule__row__title {
   font-family: var(--roboto-slab);
   font-weight: var(--bold);
+  line-height: 1.25;
+  color: var(--l-black);
   @media (max-width: 699px) {
     font-size: 1.5rem;
     + .t-link {
