@@ -1,27 +1,112 @@
-.l-schedule__day {
-  margin-bottom: 80px;
-}
 .schedule__day {
-  margin-bottom: 24px;
-  display: inline-block;
-  box-sizing: border-box;
+  padding: 34px 18px 18px 18px;
   font-weight: var(--bold);
-  color: var(--gray);
-  letter-spacing: 1px;
-  border-bottom: 4px solid var(--teal);
+  font-family: var(--roboto-slab);
+  background-color: var(--schedule-l-teal);
+  span {
+    margin-bottom: 6px;
+    display: block;
+    color: var(--m-teal);
+    letter-spacing: 2px;
+  }
+  time {
+    color: var(--speaker-l-teal);
+    font-size: 1.875rem;
+    letter-spacing: 1px;
+  }
   @media (max-width: 699px) {
-    padding-bottom: 8px;
-    font-size: 1.125rem;
-    span {
-      display: none;
-    }
+    margin-bottom: 26px;
+    font-size: 1.875rem;
   }
   @media (min-width: 700px) {
-    padding-bottom: 12px;
-    font-size: 2rem;
+    margin-bottom: 42px;
+    font-size: 2.25rem;
+  }
+}
+.l-schedule__rows {
+  margin-left: 22px;
+  &:not(:last-of-type) {
+    margin-bottom: 46px;
+  }
+}
+.schedule__row {
+  display: flex;
+  @media (max-width: 699px) {
+    margin-bottom: 54px;
+    flex-direction: column;
+  }
+  @media (min-width: 700px) {
+  }
+  &:not(:last-of-type) {
+    margin-bottom: 32px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid var(--m-gray)
   }
 }
 
+.schedule__time {
+  width: 100%;
+  max-width: 156px;
+  box-sizing: border-box;
+  font-family: var(--roboto-slab);
+  color: var(--l-black);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  @media (max-width: 699px) {
+    margin-bottom: 8px;
+    font-size: 1.125rem;
+  }
+  @media (min-width: 700px) {
+    padding-top: 7px;
+    padding-right: 16px;
+    font-size: 1.5rem;
+  }
+}
+.schedule__row__title {
+  font-family: var(--roboto-slab);
+  font-weight: var(--bold);
+  line-height: 1.25;
+  color: var(--l-black);
+  @media (max-width: 699px) {
+    font-size: 1.5rem;
+    + .t-link {
+      margin-top: 18px;
+      display: inline-block;
+    }
+    + .schedule__row__text {
+      margin-top: 10px;
+    }
+  }
+  @media (min-width: 700px) {
+    font-size: 1.875rem;
+    + .t-link {
+      margin-top: 24px;
+      display: inline-block;
+    }
+    + .schedule__row__text {
+      margin-top: 12px;
+    }
+  }
+}
+
+.schedule__row__text {
+  font-weight: var(--light);
+  line-height: 1.6;
+  @media (max-width: 699px) {
+    font-size: 1.125rem;
+    + .t-link {
+      margin-top: 18px;
+      display: inline-block;
+    }
+  }
+  @media (min-width: 700px) {
+    font-size: 1.375rem;
+    + .t-link {
+      margin-top: 24px;
+      display: inline-block;
+    }
+  }
+}
 .tito-badge-link {
   display: none !important;
 }

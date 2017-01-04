@@ -1,12 +1,17 @@
 :root {
   /* COLORS */
   --black: #000000;
+    --l-black: #042b23;
+    --50-black: rgba(0, 0, 0, .5);
   --gray: #4a4a4a;
     --l-gray: #f6f6f6;
+    --m-gray: #d0dad8;
     --d-gray: #98aca8;
   --red: #ed5940;
   --teal: #39a796;
     --75-teal: rgba(57,167,150,0.75);
+    --schedule-l-teal: #f5fafa;
+    --speaker-l-teal: #98aca8;
     --l-teal: #60cebd;
     --m-teal: #095949;
     --d-teal: #042c24;
