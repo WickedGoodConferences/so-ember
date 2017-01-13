@@ -25,7 +25,7 @@
 }
 
 .t-body,
-.t-body-_-white {
+.t-body--white {
   font-weight: var(--light);
   font-size: 1.125rem;
   line-height: 1.78em;
@@ -42,7 +42,7 @@
 .t-body {
   color: var(--d-teal);
 }
-.t-body-_-white {
+.t-body--white {
   color: var(--white);
 }
 
@@ -87,7 +87,7 @@
 }
 
 .t-heading,
-.t-heading-_-white {
+.t-heading--white {
   margin-bottom: 26px;
   font-family: var(--roboto-slab);
   font-weight: var(--bold);
@@ -102,7 +102,7 @@
 .t-heading {
   color: var(--m-teal);
 }
-.t-heading-_-white {
+.t-heading--white {
   color: var(--white);
 }
 
