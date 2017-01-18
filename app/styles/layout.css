@@ -1,6 +1,6 @@
 .l-section,
-.l-section-_-wide,
-.l-section-_-thin {
+.l-section--wide,
+.l-section--thin {
   margin-right: auto;
   margin-left: auto;
   width: 88.75%;
@@ -15,11 +15,11 @@
 .l-header {
   max-width: 793px;
 }
-.l-section-_-thin {
+.l-section--thin {
   max-width: 633px;
 }
 
-.l-section-_-wide {
+.l-section--wide {
   max-width: 878px;
 }
 
