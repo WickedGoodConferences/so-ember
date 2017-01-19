@@ -122,7 +122,9 @@
   height: 19px;
   display: inline-block;
   @media (max-width: 699px) {
-    display: none;
+    .speaker__img-wrap & {
+      display: none;
+    }
   }
   &:not(:first-of-type) {
     margin-left: 20px;
